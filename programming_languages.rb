@@ -11,8 +11,3 @@ languages.each do |style, data|
 end
 new_hash
 end
-
-
-
-
-end
