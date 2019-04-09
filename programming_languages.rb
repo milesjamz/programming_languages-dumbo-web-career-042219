@@ -5,7 +5,12 @@ languages.each do |style, data|
     if new_hash[lang_name] == nil
     new_hash[lang_name] = describe
  new_hash[lang_name][:style] = []
-        end
+    end
+    new_hash[lang_name][:style] << style
+  end
+end
+new_hash
+end
 
 
 
